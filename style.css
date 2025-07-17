@@ -88,6 +88,7 @@ main > section {
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 /* banner style start  */
@@ -105,7 +106,7 @@ main > section {
 }
 
 .banner-img{
-    width: 100%;
+    max-width: 100%;
 }
 /* banner style end */
 
@@ -114,7 +115,9 @@ main > section {
 
 /* main section start  */
     .teams{
+        /* max-width: 100%; */
         align-items: center;
+        margin: 0;
     }
     .team-img-container{
         display: grid;
@@ -177,4 +180,14 @@ main > section {
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
+    .our-featuers{
+        /* max-width: 50%; */
+        margin: 0;
+        padding: 0;
+    }
+    .fact-container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    
 }
